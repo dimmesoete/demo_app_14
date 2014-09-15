@@ -103,12 +103,10 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.3.0)
+    turbolinks (1.1.1)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2014.7)
-      tzinfo (>= 1.0.0)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -125,6 +123,5 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (= 0.3.20)
   sqlite3 (= 1.3.8)
-  turbolinks
-  tzinfo-data
+  turbolinks (= 1.1.1)
   uglifier (>= 1.3.0)
