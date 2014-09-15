@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '~> 2.0'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
 group :doc do
 	gem 'sdoc', '0.3.20', require: false
 end
@@ -23,5 +25,6 @@ group :production do
 	gem 'pg', '0.15.1'
 	gem 'rails_12factor', '0.0.2'
 end
+
 
 
